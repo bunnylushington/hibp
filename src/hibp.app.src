@@ -1,0 +1,14 @@
+{application, hibp,
+ [{description, "interface to haveibeenpawned.com password API"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["unlicense"]},
+  {links, []}
+ ]}.

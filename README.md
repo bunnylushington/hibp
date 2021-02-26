@@ -13,7 +13,7 @@ hibp:probe("password").
 Results will be one of:
 
 ``` erlang
-{ok, hit, hit_count_integer}
+{ok, hit, HitCountInteger}
 {ok, miss}
 {error, too_many_results}
 {error, request_failed}
